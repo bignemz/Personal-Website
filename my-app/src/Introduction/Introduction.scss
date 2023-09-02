@@ -1,0 +1,275 @@
+
+@font-face {
+    font-family: Air;
+    src: url(../AirbnbCereal_W_Lt.otf);
+}
+
+.Intro {
+   
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering (optional) */
+    
+    /* Adjust as needed */
+  
+h1{
+  
+    text-align: center;
+    font-family: Anton;
+    font-size: 2rem;
+    color:rgb(113, 121, 126);
+}
+
+}
+.Intro-service{
+    h2{
+        font-size:2rem;
+        margin-bottom: 22px;
+    }
+    padding: 40px;  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* Spacing between columns and rows */
+    background-color: white;
+
+
+    .Service-section{
+     
+        font-family: Air;
+        p{
+            font-size: 1rem;
+          line-height: 30px;
+        }
+
+    }
+
+    .Service-section:hover{
+        background-color:rgb(113, 121, 126, 0.5);
+    
+    }
+}
+.Intro-service.active{
+    background-color: black;
+}
+.Intro-project{
+    font-family: Air;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+
+    img{
+        width: 100%;
+    }
+
+
+}
+.Intro-project.active{
+    background-color: black;
+}
+.Photo-section{
+  
+   
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 20px;
+  
+    
+
+    .Photo{
+        padding: 20px;
+      
+       img{
+        width: 100%;
+        filter: grayscale(100%);
+
+       }
+       img:hover{
+        width: 100%;
+        filter: grayscale(0%);
+        
+       }
+    }
+}
+.Intro-photo{
+     background-color: white;
+}
+.Intro-photo.active{
+    background-color: black;
+}
+
+
+.Intro.active{
+    background-color: black;
+    color: white;
+}
+
+
+ 
+@media (max-width: 768px) {
+  
+  
+
+    .Intro-service{
+        display: flex;
+        flex-direction:column; /* 4 equal-width columns */
+        gap: 20px; /* Spacing between columns and rows */
+        background-color: white;
+    
+
+
+    }
+  
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .Intro {
+   
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering (optional) */
+        
+        /* Adjust as needed */
+      
+    h1{
+      
+        text-align: center;
+        font-family: Anton;
+       
+        color:rgb(113, 121, 126);
+    }
+    
+    }
+    .Photo-section{
+  
+   
+        display: flex;
+        flex-direction:column;
+       padding: 20px;
+      
+        
+    
+        .Photo{
+            padding: 20px;
+          
+           img{
+            width: 100%;
+            filter: grayscale(100%);
+    
+           }
+           img:hover{
+            width: 100%;
+            filter: grayscale(0%);
+            
+           }
+        }
+    }
+
+}
+
+
+//     .Intro {
+//         display: flex;
+//         width: 100%;
+//         flex-direction: column;
+      
+       
+//         margin: 0 auto;
+//         background-color: black;
+    
+//         justify-content: center;
+    
+//         height: 100vh;
+//         /* Adjust as needed */
+    
+    
+//     }
+//     img {
+//         max-width: 100%;
+        
+       
+//       }
+    
+//     .Intro-text {
+     
+//         display: grid;
+      
+//         place-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         /* Horizontally center */
+//         height: 100vh;
+//         background-color: black;
+//         .Intro-text1{
+//             display: inline;
+//             background-color: black;
+//             margin: 0 auto;
+          
+         
+//         }
+//         button{
+//             background-color: rgb(171,32,253);
+//             color:black;
+//             border: 3px solid red;
+//             border: none;
+//             padding: 10px 20px;
+//             cursor: pointer;
+//             transition: background-color 0.3s ease;
+//             transition: color 0.3s ease;
+         
+//             padding: 20px;
+//             border-radius: 10px;
+//             width: 150px;
+//             font-family:Georgia, 'Times New Roman', Times, serif;
+            
+    
+//         }
+//         button:hover {
+//             background-color: rgb(71, 26, 97);
+//             color: aliceblue;
+//           }
+    
+    
+    
+//         h1 {
+//             font-size: 40px;
+//             font-family:Georgia, 'Times New Roman', Times, serif;
+//             color:white
+    
+    
+    
+//         }
+    
+//         span {
+//             h1 {
+//                 color: rgb(171, 32, 253);
+              
+//             }
+    
+//         }
+//     }
+    
+//     .Intro-photo {
+    
+    
+//         img {
+//             width:100VW;
+//             height: 45VH;
+          
+    
+            
+//         }
+    
+//     }
+
+
+
+
+  
+// }
+
+
+
+  
