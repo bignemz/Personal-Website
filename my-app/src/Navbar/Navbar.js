@@ -2,7 +2,7 @@ import React from 'react'
 import "./Navbar.scss"
 
 function Navbar(Prop) {
- console.log(Prop.Toggle)
+
   
   return (
     <nav  className={`navbar ${Prop.Toggle ? 'active' : ''}`}>

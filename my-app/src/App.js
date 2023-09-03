@@ -1,14 +1,8 @@
 
 import React,{useState} from 'react';
 import { BrowserRouter ,Routes,Route } from 'react-router-dom';
-
 import Layoutpage from './Layoutpage/Layoutpage';
-import About from './AboutUs/About';
 import Navbar from './Navbar/Navbar';
-// import Layoutpage from './Layoutpage/Layoutpage';
-// import Homepage from './Homepage/Homepage';
-
-
 
 
 
