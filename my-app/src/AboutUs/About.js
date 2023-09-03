@@ -6,11 +6,6 @@ import "./About.scss"
 
 
 function About(Prop) {
-  console.log(Prop.Toggle)
-
-
-
-
   return (
     <div className= {`About-section  ${Prop.Toggle ? 'active' : ''}`}>
 

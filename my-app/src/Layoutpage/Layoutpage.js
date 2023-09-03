@@ -1,10 +1,7 @@
 import React from 'react'
-
 import './Layoutpage.scss'
-
 import Introduction from '../Introduction/Introduction'
 import About from '../AboutUs/About'
-
 
 
 
