@@ -11,7 +11,7 @@ function Introduction(Prop) {
 
       <h1>SERVICE</h1>
 
-      <div className= {`Intro-service ${Prop.Toggle ? 'active' : ''}`}> 
+      <div className= {`Intro-service  ${Prop.Toggle ? 'active' : ''}`}> 
         <div className='Service-section'> 
           <h2>01</h2>
           <h2>HTML</h2>
